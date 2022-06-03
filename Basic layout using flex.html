@@ -1,0 +1,199 @@
+<html>
+<head>
+<title> Flexbox layout </title>
+<link rel="stylesheet" href="css/all.css">
+<style>
+*{
+box-sizing:border-box;
+}
+body{
+font-family:arial;
+display:flex;
+flex-direction:column;
+margin:0;
+}
+header{
+background:yellowgreen;
+display:flex;
+align-items:center;
+padding:10px 0;
+}
+header ul{
+list-style:none;
+display:flex;
+padding:0
+margin:0;
+}
+header a{
+color:white;
+}
+a{
+text-decoration:none;
+}
+#logo{
+margin:0 auto;
+font-size:40px;
+}
+#menu li{
+padding:10px;
+}
+#social-links li{
+padding:10px;
+}
+#main{
+display:flex;
+}
+aside{
+padding:10px;
+flex:0 0 20vw;
+background:beige;
+}
+aside ul{
+list-style:none;
+padding:0;
+}
+aside ul a{
+color:#566c2b;
+padding:10px;
+display:block;
+border-bottom:1px solid grey;
+}
+article{
+padding:10px;
+}
+.services-container{
+display:flex;
+justify-content:space-between;
+}
+.service-box{
+border:1px solid #eee;
+flex-basis:32%;
+max-width:370px;
+padding:50px;
+}
+.service-box img{
+width:100%;
+}
+footer{
+background:#566c2b;
+color:#fff;
+text-align:center;
+padding:15px 0;
+}
+@media screen and (max-width:850px){
+.service-box{
+flex-basis:48%;
+}
+aside{
+flex:0 0 30vw;
+}
+}
+@media screen and (max-width:600px){
+header{
+flex-direction:column;
+}
+#logo{
+order:-1;
+}
+#main{
+flex-direction:column;
+}
+article{
+order:-1;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<nav id="menu">
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="">About Us</a></li>
+<li><a href="">Contact</a></li>
+</ul>
+</nav>
+<div id="logo">
+<a href="">Salman Khan</a>
+</div>
+<nav id="social-links">
+<ul>
+<li><a href=""><i class="fab fa-facebook-f"></i>
+<li><a href=""><i class="fab fa-twitter"></i>
+<li><a href=""><i class="fab fa-google-plus-g"></i>
+</ul>
+</nav>
+</header>
+<div id="main">
+<aside class="">
+<ul>
+<li><a href="">git </a></li>
+<li><a href="">Koning </a></li>
+<li><a href="">Kinv </a></li>
+<li><a href="">Asing </a></li>
+<li><a href="">Aking </a></li>
+</ul>
+
+<img src="Image/Salman.jpg" alt="">
+</aside>
+<article class="">
+<h2>Welcome </h2>
+<p>khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on to play the leading role in Sooraj R. Barjatya's romantic family drama Maine Pyar Kiya (1989), which become one of the highest-grossing Indian films at the time.[41][42] It earned him his first nomination for the Best Actor at Filmfare along with a nomination for Best Male Debut at the same ceremony; the latter was awarded to Barjatya.[43] Maine Pyar Kiya was dubbed in English as When Love Calls, in Spanish as Te Amo, and in Telugu as Prema Paavuraalu.[44]</p>
+<p>khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on to play the leading role in Sooraj R. Barjatya's romantic family drama Maine Pyar Kiya (1989), which become one of the highest-grossing Indian films at the time.[41][42] It earned him his first nomination for the Best Actor at Filmfare along with a nomination for Best Male Debut at the same ceremony; the latter was awarded to Barjatya.[43] Maine Pyar Kiya was dubbed in English as When Love Calls, in Spanish as Te Amo, and in Telugu as Prema Paavuraalu.[44]</p>
+<p>khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on to play the leading role in Sooraj R. Barjatya's romantic family drama Maine Pyar Kiya (1989), which become one of the highest-grossing Indian films at the time.[41][42] It earned him his first nomination for the Best Actor at Filmfare along with a nomination for Best Male Debut at the same ceremony; the latter was awarded to Barjatya.[43] Maine Pyar Kiya was dubbed in English as When Love Calls, in Spanish as Te Amo, and in Telugu as Prema Paavuraalu.[44]</p>
+<p>khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on to play the leading role in Sooraj R. Barjatya's romantic family drama Maine Pyar Kiya (1989), which become one of the highest-grossing Indian films at the time.[41][42] It earned him his first nomination for the Best Actor at Filmfare along with a nomination for Best Male Debut at the same ceremony; the latter was awarded to Barjatya.[43] Maine Pyar Kiya was dubbed in English as When Love Calls, in Spanish as Te Amo, and in Telugu as Prema Paavuraalu.[44]</p>
+</div>
+<h2>Salman</h2>
+<div class="services-container">
+<div class="service-box">
+<div class="service-img">
+<img src="Image/Salman.jpg" alt="">
+</div>
+<div class="service-title">
+<h3>Salman</h3>
+</div>
+<div class="service-desc">
+<p>khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on to play the leading role in Sooraj R.
+</div>
+<div class="call-to-action">
+<a href="">Read More </a>
+</div>
+</div>
+
+<div class="service-box">
+<div class="service-img">
+<img src="Image/Road.jpg" alt="">
+</div>
+<div class="service-title">
+<h3>Beauty</h3>
+</div>
+<div class="service-desc">
+<p>khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on to play the leading role in Sooraj R. 
+</div>
+<div class="call-to-action">
+<a href="">Read More </a>
+</div>
+</div>
+
+<div class="service-box">
+<div class="service-img">
+<img src="Image/Border.png" alt="">
+</div>
+<div class="service-title">
+<h3>Ring</h3>
+</div>
+<div class="service-desc">
+<p>khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on to play the leading role in Sooraj R.
+</div>
+<div class="call-to-action">
+<a href="">Read More </a>
+</div>
+</div>
+</div>
+</article>
+</div>
+<footer>
+Made by Adnan
+</footer>
+</body>
+</html>
